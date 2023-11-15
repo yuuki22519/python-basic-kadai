@@ -1,1 +1,5 @@
-
+jouhen = 10
+kahen = 20
+height = 5
+daikei = (jouhen + kahen) * height / 2
+print(str(daikei) + "㎠")
