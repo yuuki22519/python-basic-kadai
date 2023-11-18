@@ -1,5 +1,3 @@
-def calculate_total(price, consumption_tax):
-    total = price * (1 + consumption_tax)
+def calculate_total(price, 0.1):
+    total = price * (1 + 0.1)
     print(f"{total}円です。")
-
-calculate_total(500, 0.1)
