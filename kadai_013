@@ -1,8 +1,6 @@
-tax = 0.1
-
 def calculate_total(price, tax):
     total = price * (1 + tax)
     if tax == 0.1:
-        return print(f"{total}円です。")
+        return total
 
-calculate_total(500, tax)
+calculate_total(500, 0.1)
