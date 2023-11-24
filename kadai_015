@@ -11,5 +11,8 @@ class Human {
 
 printinfo = Human
 
+print.set_name("daigo")
+print.set_age(40)
+
 printinfo.show_name()
 printinfo.show_age()
