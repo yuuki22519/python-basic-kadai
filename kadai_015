@@ -1,16 +1,13 @@
-class Human :
-    def __init__(printinfo):
-        printinfo.name = ""
-        printinfo.age = ""
+class Human:
 
-    def set_name(printinfo, name):
-        printinfo.name = name
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-    def show_name(printinfo):
-        print(printinfo.name)
+    def printinfo(self):
+        print(self.name)
+        print(self.age)
 
-    def set_age(printinfo, age):
-        printinfo.age = age
+human1 = Human("daigo", 25)
 
-    def show_age(printinfo):
-        print(printinfo.age)
+human1.printinfo()
