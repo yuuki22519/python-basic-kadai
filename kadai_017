@@ -11,10 +11,13 @@ class Human :
             print(f"{self.name}は大人ではありません。")
 
 human1 = Human("侍一郎", 25)
-human1.check_adult()
-
 human2 = Human("侍二郎", 22)
-human2.check_adult()
-
 human3 = Human("侍三郎", 19)
-human3.check_adult()
+
+human_lists = []
+human_lists.append(human1)
+human_lists.append(human2)
+human_lists.append(human3)
+
+for a in human_lists:
+    a.check_adult()
